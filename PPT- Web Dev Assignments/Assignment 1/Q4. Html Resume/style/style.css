@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Calibri;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: dimgrey;
+}
+.container{
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+    border: 2px solid yellow;
+    background-color:antiquewhite;
+    border-radius: 30px;
+}
+
+#top1,#top2{
+    color: rgb(31, 30, 30);
+    font-weight: 500;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading{
+    color: rebeccapurple;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+hr{
+    font-weight: bolder;
+    color: dimgray;
+}
+
+.sep{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 400;
+    
+
+}
+
+.sep1,.sep2,#lang,#skills,#projects,#cert{
+    padding: 10px;
+}
+
+.clg{
+    margin-right: 300px;
+    text-align: left;
+}
+
+#roles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+#roles ul{
+    margin-left: 30px;
+}
+
+#strn{
+    margin-left: 20px;
+    padding: 10px;
+}
